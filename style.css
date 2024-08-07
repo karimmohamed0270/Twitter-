@@ -1,0 +1,372 @@
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    background-color: black;
+
+}
+
+html {
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 10px 0 10px 13%;
+    width: 15%;
+    height: 100%;
+    position: fixed;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    /* justify-content: space-between; */
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    /* padding: 8px 25px 8px 8px;border: 2px white solid; */
+    width: fit-content;
+    /* take only the width of the icon and the title */
+
+}
+
+.navLinks a i {
+    font-size: 3rem;
+    margin-right: 15px;
+}
+
+.navLinks a:hover {
+    color: grey;
+    border-radius: 9999px;
+}
+
+.firstButton {
+    background-color: blue;
+    border: none;
+    border-radius: 9999px;
+    height: 40px;
+    width: 50%;
+    color: white;
+    cursor: pointer;
+
+}
+
+.firstButton:hover {
+    background-color: rgb(78, 78, 241);
+}
+
+
+.image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: beige;
+}
+
+.accountDetails {
+    height: 30%;
+    width: 100%;
+    padding-top: 88px;
+    margin-left: -51px;
+
+
+}
+
+.accountDetails a {
+    display: flex;
+    padding: 8px 10px 8px 15px;
+}
+
+
+.iconmore {
+    margin: 10px;
+}
+
+.accountinfo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+.accountNAme {
+    font-weight: bold;
+
+}
+
+.accountHandle,
+.iconmore {
+    color: #bab0b0;
+}
+
+.account:hover {
+    color: blue;
+    width: fit-content;
+    border-radius: 9999px;
+}
+
+main {
+    width: 71%;
+    height: 100%;
+    margin-left: 29%;
+}
+
+.mainFlex {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.mainFeed {
+    width: 50%;
+    border-left: 1px solid grey;
+
+}
+
+.mainBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    /* border: 1px solid grey;
+    border-radius: 9999px; */
+    width: 100%;
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 0 15px;
+    margin-top: 5px;
+    /* position: sticky;
+    top: 0;  together to sticky work*/
+    position: sticky;
+    top: 0;
+    background-color: black;
+}
+
+.mainTweet {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    padding: 4px 16px;
+}
+
+.logo {
+    padding-right: 80px;
+}
+
+.homeText {
+    padding-left: 60px;
+
+}
+
+.mainTweet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.newDetailsTweet {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+}
+
+.iconmores {
+    margin-top: 17px;
+    color: white;
+    margin-right: 10px;
+
+}
+
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.secondButton {
+    background-color: blue;
+    border: none;
+    border-radius: 9999px;
+    height: 40px;
+    width: 15%;
+    color: white;
+    cursor: pointer;
+    margin-left: 125px;
+    margin-top: 48px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.secondButton:hover {
+    background-color: rgb(78, 78, 241);
+
+
+}
+
+input {
+    border: none;
+    height: 50px;
+    width: 190%;
+    color: white;
+    overflow-y: scroll;
+    font-size: large;
+    font-weight: bold;
+}
+
+input:focus {
+    outline: none;
+    /* No outline */
+    background-color: black;
+    /* Darker background on focus */
+}
+
+.feedTweet {
+    /* border: 2px solid red; */
+    in width: 90%;
+    margin-left: 70px;
+    color: white;
+}
+
+.personalInfo {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    height: 25px;
+}
+
+.personalInfo p {
+    margin-left: 10px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.email,
+.time {
+    color: #bab0b0;
+}
+
+.moreIcon {
+    color: #bab0b0;
+    margin-left: 220px;
+}
+
+.tweetText {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 2rem;
+}
+
+.tweetIcons {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    /* justify-content: space-between; */
+
+}
+
+.tweetIcons a i {
+    margin-right: 120px;
+
+}
+
+.sideFeed {
+    margin-left: 80px;
+    border-left: 2px solid gray;
+    width: 50%;
+}
+
+.search {
+    height: 50px;
+    width: 380px;
+    background-color: white;
+    margin-left: 10%;
+    border-radius: 9999px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 5px;
+    
+
+}
+
+.search:focus {
+    outline: none;
+    border: 2px solid blue;
+}
+
+.trending {
+    /* border: 2px solid red; */
+    overflow: hidden; /* Ensures it contains floated children, if any */
+    margin-top: 15px;
+}
+
+.trend {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    background-color: re;
+}
+.trend:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+h2:hover{
+    cursor: pointer;
+}
+
+.follow{
+    margin-top: 25px;
+
+}
+.friend{
+    padding-left: 25px;
+    padding-top: 15px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 10px;
+
+}
+.thirdButton{
+    background-color: white;
+    border: none;
+    border-radius: 9999px;
+    height: 40px;
+    width: 15%;
+    color: black;
+    cursor: pointer;
+    margin-left: 125px;
+    font-weight: bold;
+    font-size: 15px;
+
+}
